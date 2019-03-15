@@ -7,6 +7,7 @@
     </title>
     <style>
         nav {
+            border: 10px double darkblue;
             padding: 5px;
             margin: 5px;
         }
@@ -18,17 +19,21 @@
         .font {
             font-family: cursive;
         }
+
+        nav{
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: aqua;}
     </style>
 </head>
 
 <body style="background-color: lightgrey;font-size: 18px;margin-left: 125px; ">
-    <header
-        style="text-align: center; font-family: cursive; font-size: 50px; background-color:lightseagreen;margin:50px">
-        Math And
-        Science
+    <header style="text-align: center; font-family: cursive; font-size: 50px; background-color:lightseagreen;margin:50px">
+        Math And Science
     </header>
 
-    <nav style="font-size: 20px">
+    <nav style="font-size: 20px; position: sticky;">
         <b>
             <a href="index.html" style="color:darkblue;border:dashed">Home</a>|
             <a href="learning_math.html" style="color:darkblue;border:dashed">Learning Math</a>|
