@@ -7,12 +7,6 @@
     </title>
      <style>
      
-     nav{
-        position: sticky;
-        top: 0;
-        padding: 5px;
-        background-color: aqua;
-     }
      nav {
             border: 10px double darkblue;
             padding: 5px;
@@ -25,6 +19,34 @@
 
         .font {
             font-family: cursive;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: lightskyblue;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: lightseagreen;
+        }
+
+        .active {
+            background-color: mediumaquamarine;
         }
      </style>
 </head>
