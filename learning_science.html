@@ -6,64 +6,66 @@
         Learning Science
     </title>
 
-    <style>
-        nav {
-            border: 10px double darkblue;
-            padding: 5px;
-            margin: 5px;
-        }
-
-        #ForH3 {
-            border: 10px double darkblue
-        }
-
-        .font {
-            font-family: cursive;
-        }
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: lightskyblue;
-        }
-
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: lightseagreen;
-        }
-
-        .active {
-            background-color: mediumaquamarine;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit+no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background-color: lightgrey;font-size: 18px;margin-left: 125px;">
-    <header
-        style="text-align: center; font-family: cursive; font-size: 50px; background-color:lightseagreen;margin:50px">
-        Math And Science</header>
-        <ul>
-            <li> <a  href="index.html" style="color:darkblue;border:dashed">Home</a></li>
-            <li> <a href="learning_math.html" style="color:darkblue;border:dashed">Learning Math</a></li>
-            <li> <a class="active"href="learning_science.html " style="color: darkblue;border:dashed">Learning Science </a></li>
-            <li><a href="science_project.html" style="color:darkblue;border:dashed"> Science Projects </a></li>
-            <li><a href="fish_tank.html" style="color:darkblue;border:dashed"> My Fish Tank </a></li>
-            <li> <a href="aboutme.html" style="color:darkblue;border:dashed"> About Me </a> </li>
-        </ul>
+<body >
+        <header class="jumbotron text-center" style="margin-bottom:0" > 
+          <h1 class="display-3">       
+            Math And Science
+          </h1>
+        </header>
     
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Learning Math
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Intro_to_math.html">Introduction to Math</a>
+                            <a class="dropdown-item" href="learning_math_kg.html">Kindergarden</a>
+                            <a class="dropdown-item" href="learning_math_1g.html">1st grade</a>
+                            <a class="dropdown-item" href="learning_math_2g.html">2nd grade</a>
+                            <a class="dropdown-item" href="learning_math_3g.html">3rd grade</a>
+                            <a class="dropdown-item" href="learning_math_4g.html">4th grade</a>
+                          </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                              Learning Science
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="learning_science.html">Introduction to science</a>
+                              <a class="dropdown-item" href="learning_science_g2.html">2nd Grade</a>
+                              <a class="dropdown-item" href="learning_science_g3.html">3rd Grade</a>
+                              <a class="dropdown-item" href="learning_science_g4.html">4th Grade</a>
+                            </div>
+                          </li>   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                          All About Me
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="aboutme.html">About Me</a>
+                          <a class="dropdown-item" href="science_project.html">Science Project</a>
+                          <a class="dropdown-item" href="fish_tank.html">Fish Tank</a>
+                        </div>
+                      </li>
+                  </ul>
+                </div>  
+              </nav>
+              
     <h1 style="text-align: center">
         Introduction to Science
     </h1>
@@ -74,9 +76,11 @@
 
     </p>
 
-    <footer style="background-color: lightcyan">
-        @Copyright Siddhi Yadav
-    </footer>
+    <footer class="jumbotron text-center">
+            <h3>
+              @Copyright Siddhi Yadav
+            </h3>
+          </footer>
 </body>
 
 
